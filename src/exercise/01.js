@@ -73,9 +73,6 @@ function useUser() {
   return context
 }
 
-// 🐨 add a function here called `updateUser`
-// Then go down to the `handleSubmit` from `UserSettings` and put that logic in
-// this function. It should accept: dispatch, user, and updates
 async function updateUser(dispatch, user, updates) {
   dispatch({type: 'start update', updates})
   try {
